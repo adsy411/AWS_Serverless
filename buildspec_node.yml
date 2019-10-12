@@ -1,7 +1,7 @@
 version: 0.2
 phases:
-  nodejs: 6
   install:
+    nodejs: 6
     commands:
       - echo Starting to install, build modules on `date`
       - export HOME_DIR=$CODEBUILD_SRC_DIR
